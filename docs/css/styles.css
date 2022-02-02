@@ -132,7 +132,7 @@ section{
     flex-grow: 1;
     flex-shrink: 1;
     margin: .5rem;
-    background-color: indianred;
+    background-color: rgba(7, 82, 7, 0.733);
     color: white;
     padding: 8px;
     /* font-size: .5rem; */
@@ -148,11 +148,14 @@ main {
 width:100%; 
 padding:0;
 border: none;
-background-color: goldenrod;
+background-color: rgba(236, 187, 52, 0.623);
 }
 
 p{
     font-size: .9em;
 }
 
+}
+footer {
+  text-align: center;
 }

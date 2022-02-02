@@ -136,10 +136,13 @@ section{
     color: white;
     padding: 8px;
     /* font-size: .5rem; */
-    line-height: 1.7;
+    line-height: 1.5;
 
 }
 
+footer {
+  text-align: center;
+}
 
 @media only screen and (max-width: 600px) {
 
@@ -156,6 +159,4 @@ p{
 }
 
 }
-footer {
-  text-align: center;
-}
+

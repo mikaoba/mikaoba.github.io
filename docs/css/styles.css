@@ -78,3 +78,81 @@ span.stage_directions_inline {
 
 span.character_beforespeech {
 }
+* {
+    margin:0;
+    box-sizing: border-box;
+}
+
+html{
+font-size: 16px;
+
+}
+h1 {
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h2 {
+    text-align: center;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgba(236, 187, 52, 0.623);
+}
+
+main {
+width: 90%;
+max-width:800px;
+border: 1px solid green;
+margin:0 auto;
+display:flex;
+flex-wrap: wrap;
+/* flex-direction: row; */
+background-color: white;
+}
+
+img {
+    width:100%
+
+
+}
+figure {
+    width:100%;
+    flex-basis: 300px;
+    flex-grow: 1;
+    flex-shrink: 1;
+    margin: .5rem;
+}
+
+
+
+section{
+    flex-basis: 300px;
+    flex-grow: 1;
+    flex-shrink: 1;
+    margin: .5rem;
+    background-color: indianred;
+    color: white;
+    padding: 8px;
+    /* font-size: .5rem; */
+    line-height: 1.7;
+
+}
+
+
+@media only screen and (max-width: 600px) {
+
+main {
+
+width:100%; 
+padding:0;
+border: none;
+background-color: goldenrod;
+}
+
+p{
+    font-size: .9em;
+}
+
+}

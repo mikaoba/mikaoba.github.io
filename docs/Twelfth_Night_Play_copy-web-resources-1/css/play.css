@@ -74,6 +74,7 @@ section.dramatis{
   max-width: 700px;
   background-color:#fef7e7;
   margin-top: 120px;
+  text-align: center;
 
 }
 
@@ -154,11 +155,14 @@ border: 1.5px solid rgba(7, 82, 7, 0.733);
 
 
 h2.location {
-  font-size: medium;
   text-align: center;
+  font-weight: lighter;
 }
-p.play_location {
-
+p.caption_scene {
+text-align: center;
+font-style: italic;
+margin: 5px auto;
+padding: 5px;
 }
 p.prose {
   line-height: 2;
@@ -205,6 +209,12 @@ span.character_beforespeech {
     padding: 10px;
     text-align: center;
   }
+}
+
+h2.location {
+  text-align: center;
+  font-weight: lighter;
+  font: 200px;
 }
 
 img {
@@ -326,3 +336,11 @@ html {
   }
 }
 
+
+.backtotop {
+  position:fixed;
+  bottom: 10px;
+  right: 15px;
+  opacity: 0.9;
+
+}

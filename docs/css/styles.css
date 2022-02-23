@@ -58,10 +58,13 @@ section{
 
 }
 
+
+
 footer {
   text-align: center;
   margin: 12px auto;
 }
+
 
 @media only screen and (max-width: 600px) {
 
@@ -84,3 +87,15 @@ p {
 
 }
 
+
+.playlink {
+    text-align: left;
+    background-color: white;
+    /* border: 2px solid green; */
+    padding:4px;
+    
+}
+
+.playlink a {
+    text-decoration: none;
+}

@@ -1,0 +1,317 @@
+/* This stylesheet is where to add styles for your Shakespeare Play */
+/*We usually add something general for the body*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  scroll-padding-top: 85px;
+}
+
+.backtotop {
+  position:fixed;
+  bottom: 2px;
+  right: 8px;
+  opacity: 0.9;
+
+}
+.backtotop a {
+  text-decoration:none;
+  font-size: 3em;
+  color: black;
+
+}
+
+.backtotop a:hover {
+  color: aquamarine;
+}
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: rgba(236, 187, 52, 0.623);
+  /*your style rules go in here */
+}
+
+section.nav {
+  /* this is where your nav list items will be */
+}
+
+nav {
+  
+}
+section {
+  border: 0;
+}
+
+
+/*Here follows the class names that you will have in your html*/
+/*You may have more if you added styles in InDesign*/
+/*You need to add the style attributes between the curly brackets*/
+
+/* the following may not be used but it doesn't matter if they are listed here  */
+
+/* If you ahe created any new styles in InDesign and used export tags then you need to add them here */
+
+section.dramatis{
+  width: 75%;
+  margin: 25px auto;
+  border: 1px solid rgba(7, 82, 7, 0.733);
+  padding: 5px;
+  max-width: 700px;
+  background-color:#fef7e7;
+  margin-top: 120px;
+
+}
+
+section.caption_scene {
+margin: 12px auto;
+text-align: left;
+}
+p.caption {
+  margin: 5px auto;
+  padding: 5px;
+  text-align: center;
+  font-size: small;
+
+}
+
+section.play {
+  width: 90%;
+  margin: 12px auto;
+  border: 1px solid rgba(7, 82, 7, 0.733);
+  padding: 30px;
+  max-width: 900px;
+  background-color: #fef7e7;
+}
+
+
+section.play_location{
+  margin: 12px auto;
+  padding: 30px;
+  text-align: center;
+}
+section.play {
+  text-align: left;
+}
+
+section.play {
+  margin: 12px auto;
+  padding: 50px;
+
+}
+div.sceneImage {
+  display:flex;
+  margin: 0 auto;
+}
+h1.act {
+  text-align: center;
+  background-color: rgba(7, 82, 7, 0.733);
+  color: #fef7e7;
+  padding: 10px;
+  margin: 10px auto;
+  font-size: 2em;
+}
+
+
+  img {
+    display:flex;
+    margin: 0 auto;
+  }
+
+p.character {
+  text-align: left;
+  font-style: italic;
+  
+
+}
+p.character_name {
+  font-family: 'Times New Roman', Times, serif;
+
+}
+h1.dramatishead {
+  text-align: center;
+}
+
+.firstscene,
+.scene {
+text-align: center;
+margin: 10px auto;
+padding: 10px;
+color: black;
+border: 1.5px solid rgba(7, 82, 7, 0.733);
+}
+
+
+h2.location {
+  font-size: medium;
+  text-align: center;
+}
+p.play_location {
+
+}
+p.prose {
+  line-height: 2;
+margin: 0 0 0.4em 8em;
+}
+
+p.song {
+}
+h2.stagedirection {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 17px;
+  padding: 10px;
+  text-align: center;
+}
+
+.verseline {
+  margin: 0 0 0.4em 8em;
+}
+span.character_role {
+}
+span.stage_directions_inline {
+}
+
+span.character_beforespeech {
+}
+
+@media screen and (max-width: 800px) {
+  html{
+    font-size: 12px;
+  }
+}
+@media screen and (max-width: 700px) {
+  dramatis,
+  .play, .dramatis {
+    width: 100%;
+    padding: 1em 3em;
+  }
+}
+
+@media screen and (max-width: 800px){
+  h2.stagedirection {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 11px;
+    padding: 10px;
+    text-align: center;
+  }
+}
+
+img {
+  max-width: 65%;
+}
+
+input[type="checkbox"] {
+  display: none;
+}
+
+.hamburger {
+  display: none;
+  font-size: 2rem;
+  color: white;
+}
+
+nav {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: wheat;
+  
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  /*   justify-content: flex-start; */
+}
+
+nav ul li {
+  flex: 0 0 8rem; /*the same as flex-grow, flex-shrink, flex-basis */
+  text-align: center;
+}
+
+/* we turn off the underline and set the padding and the color */
+
+nav ul li a {
+  text-decoration: none;
+  padding: 0.8rem 1rem;
+  display: block;
+  color: rgba(7, 82, 7, 0.733);
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* feedback for the user with a background when hovering hover */
+
+nav ul li:hover {
+  background-color: rgba(236, 187, 52, 0.623);
+}
+
+nav ul li a:hover {
+  color: white;
+}
+
+/* sub menus */
+
+li ul {
+  display: none;
+  position: absolute;
+  background-color: wheat;
+}
+
+li ul li a {
+  padding: 0.3rem 1.5rem;
+  /*   font-size: 0.8rem; */
+}
+
+nav ul li:hover ul {
+  display: flex;
+  flex-direction: column;
+}
+
+nav ul li ul li {
+  flex: 0 1 auto;
+  width: 8rem; /* the same as the value for flex-basis on the parent li */
+}
+
+/* now for the smaller displays */
+
+@media screen and (max-width: 700px) {
+  nav ul {
+    display: none;
+    flex-direction: column;
+  }
+
+html {
+  scroll-padding-top: 250px;
+}
+  .hamburger {
+    display: block;
+    float: right;
+    cursor: pointer;
+    color: rgba(7, 82, 7, 0.733);
+  }
+
+  /*   ~ the tilda points to the next sibling selector */
+
+  input[type="checkbox"]:checked ~ ul {
+    display: block;
+  }
+
+  li ul {
+    position: static;
+  }
+
+  nav ul li {
+    flex: 0 0 auto; /*the same as flex-grow, flex-shrink, flex-basis */
+    width: 100%;
+  }
+
+  nav ul li:hover ul {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+}
+

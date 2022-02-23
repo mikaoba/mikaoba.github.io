@@ -19,12 +19,12 @@ html {
 .backtotop a {
   text-decoration:none;
   font-size: 3em;
-  color: black;
+  color: rgba(7, 82, 7, 0.733);
 
 }
 
 .backtotop a:hover {
-  color: aquamarine;
+  color: black;
 }
 body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -52,11 +52,25 @@ section {
 
 /* If you ahe created any new styles in InDesign and used export tags then you need to add them here */
 
+h1.title {
+  text-align: center;
+  padding: 5px;
+  margin: 10px auto;
+}
+
+h1.dramatishead {
+text-align: center;
+background-color: rgba(7, 82, 7, 0.733);
+color: #fef7e7;
+padding: 10px;
+margin: 10px auto;
+}
+
 section.dramatis{
   width: 75%;
   margin: 25px auto;
   border: 1px solid rgba(7, 82, 7, 0.733);
-  padding: 5px;
+  padding: 20px;
   max-width: 700px;
   background-color:#fef7e7;
   margin-top: 120px;
@@ -127,9 +141,6 @@ p.character {
 p.character_name {
   font-family: 'Times New Roman', Times, serif;
 
-}
-h1.dramatishead {
-  text-align: center;
 }
 
 .firstscene,

@@ -1,95 +1,11 @@
-/* This stylesheet is where to add styles for your Shakespeare Play */
-/*We usually add something general for the body*/
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-body {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  /*your style rules go in here */
-}
-
-section {
-  border: 0;
-}
-
-/*Here follows the class names that you will have in your html*/
-/*You may have more if you added styles in InDesign*/
-/*You need to add the style attributes between the curly brackets*/
-
-/* the following may not be used but it doesn't matter if they are listed here  */
-
-section.cover {
-  text-align: center;
-  width: 70%;
-  margin: 20px auto;
-}
-
-img.playimage {
-  /* you will need a width attribute in here */
-  max-width: 40%;
-  padding: 20px auto;
-}
-
-img.shakespeareimage {
-  /* you will need a width attribute in here */
-  max-width: 40%;
-  padding: 20px auto;
-}
-
-/* If you have created any new stlyes in InDesign and used export tags then you need to add them here */
-
-section.dramatis {
-}
-section.play {
-}
-div.sceneImage {
-}
-h1.act {
-}
-p.character {
-}
-p.charactername {
-}
-h1.dramatishead {
-}
-h2.firstscene {
-}
-h2.location {
-}
-p.play_location {
-}
-p.prose {
-}
-h2.scene {
-}
-p.song {
-}
-h2.stagedirection {
-}
-p.verseline {
-}
-span.character_role {
-}
-span.stage_directions_inline {
-}
-
-span.character_beforespeech {
-}
-* {
-    margin:0;
-    box-sizing: border-box;
-}
-
 html{
-font-size: 16px;
-
+font-size: 13px;
 }
+
+
 h1 {
     text-align: center;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 h2 {
@@ -102,7 +18,7 @@ body {
 }
 
 main {
-width: 90%;
+width: 100%;
 max-width:800px;
 border: 1px solid green;
 margin:0 auto;
@@ -134,7 +50,7 @@ section{
     margin: .5rem;
     background-color: rgba(7, 82, 7, 0.733);
     color: white;
-    padding: 8px;
+    padding: 20px;
     /* font-size: .5rem; */
     line-height: 1.5;
 
@@ -150,12 +66,13 @@ main {
 
 width:100%; 
 padding:0;
-border: none;
-background-color: rgba(236, 187, 52, 0.623);
+border: 1px solid rgba(7, 82, 7, 0.733);
+background-color: white;
 }
 
-p{
+p {
     font-size: .9em;
+    margin-top: 2em;
 }
 
 }

@@ -91,12 +91,22 @@ p {
 
 .playlink {
     text-align: center;
+    width: 25%;
+    margin:50px auto;
     background-color: #fef7e7;
-    /* border: 2px solid green; */
     padding:10px;
+    /* border: 2px solid green; */
+ 
     
+  
+}
+
+.playlink:hover a {
+    color: rgba(7, 82, 7, 0.733);
 }
 
 .playlink a {
     text-decoration: none;
+    color: black;
+    
 }

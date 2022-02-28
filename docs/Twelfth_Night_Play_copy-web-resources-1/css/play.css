@@ -6,13 +6,13 @@
   box-sizing: border-box;
 }
 html {
-  scroll-padding-top: 85px;
+  scroll-padding-top: 80px;
 }
 
 .backtotop {
   position:fixed;
-  bottom: 2px;
-  right: 8px;
+  bottom: 3px;
+  right: 10px;
   opacity: 0.9;
 
 }
@@ -93,7 +93,7 @@ p.caption {
 }
 
 section.play {
-  width: 90%;
+  width: 85%;
   margin: 12px auto;
   border: 1px solid rgba(7, 82, 7, 0.733);
   padding: 30px;
@@ -227,6 +227,10 @@ input[type="checkbox"] {
   display: none;
 }
 
+input[type="checkbox"]:checked ~ul  {
+  display:block;
+}
+
 .hamburger {
   display: none;
   font-size: 2rem;
@@ -306,9 +310,10 @@ nav ul li ul li {
     flex-direction: column;
   }
 
-html {
+/*html {
   scroll-padding-top: 250px;
-}
+} */
+
   .hamburger {
     display: block;
     float: right;
@@ -339,10 +344,5 @@ html {
 }
 
 
-.backtotop {
-  position:fixed;
-  bottom: 10px;
-  right: 15px;
-  opacity: 0.9;
 
-}
+

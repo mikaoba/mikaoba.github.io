@@ -32,13 +32,7 @@ body {
   /*your style rules go in here */
 }
 
-section.nav {
-  /* this is where your nav list items will be */
-}
 
-nav {
-  
-}
 section {
   border: 0;
 }
@@ -171,8 +165,6 @@ p.prose {
 margin: 0 0 0.4em 8em;
 }
 
-p.song {
-}
 h2.stagedirection {
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   font-size: 17px;
@@ -182,13 +174,6 @@ h2.stagedirection {
 
 .verseline {
   margin: 0 0 0.4em 8em;
-}
-span.character_role {
-}
-span.stage_directions_inline {
-}
-
-span.character_beforespeech {
 }
 
 @media screen and (max-width: 800px) {
